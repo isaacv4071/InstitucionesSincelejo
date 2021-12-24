@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/bulma.css">
+  <link rel="stylesheet" href="/css/app.css">
+  <title>Sincelejo - Instituciones</title>
+</head>
+
+<body>
+  <section>
+    <div class="showcase">
+      <div id="imgDatos">
+        <img src="/static/img/logo_pda.png" alt="">
+      </div>
+      <h1>Sincelejo</h1>
+      <p>DIRECTORIO INSTITUCIONES EDUCATIVAS PUBLICAS Y PRIVADAS DEL MUNICIPIO DE SINCELEJO</p>
+      <a href="#" class="btn">
+        Conocelas
+      </a>
+    </div>
+  </section>
+  <section>
+    <div class="level is-mobile" id="levelStyle">
+      <div class="level-item has-text-centered" id="INSTITUCIONES">
+      </div>
+      <div class="level-item has-text-centered" id="PUBLICA">
+      </div>
+      <div class="level-item has-text-centered" id="PRIVADA">
+      </div>
+    </div>
+    <div class="modal" id="modal">
+      
+    </div>
+    <div class="table-container" id="lista">
+      <table class="table is-bordered is-striped is-narrow is-hoverable">
+        <thead>
+          <tr>
+            <th><abbr title="Item">#</abbr></th>
+            <th><abbr title="Nombre">Nombre</abbr></th>
+            <th><abbr title="Tipo">Tipo</abbr></th>
+            <th><abbr title="Acciones"></abbr></th>
+          </tr>
+        </thead>
+        <tbody id="list">
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Sincelejo - Instituciones</strong> by <a href="https://github.com/isaacv4071">Isaac Arrieta Mercado</a>
+      </p>
+    </div>
+  </footer>
+  <script src="/js/api.js"></script>
+</body>
+
+</html>
